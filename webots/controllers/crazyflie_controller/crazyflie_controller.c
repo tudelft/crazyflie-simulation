@@ -108,7 +108,7 @@ int main(int argc, char **argv) {
     desiredState.vx = 0;
     desiredState.vy = 0;
     desiredState.yaw = 0;
-    desiredState.altitude = 1.0;
+    desiredState.altitude = 2.0;
 
     double forwardDesired = 0;
     double sidewaysDesired = 0;
@@ -118,22 +118,22 @@ int main(int argc, char **argv) {
     while (key > 0) {
       switch (key) {
         case WB_KEYBOARD_UP:
-          forwardDesired = + 0.2;
+          forwardDesired = + 1.0;
           break;
         case WB_KEYBOARD_DOWN:
-          forwardDesired = - 0.2;
+          forwardDesired = - 1.0;
           break;
         case WB_KEYBOARD_RIGHT:
-          sidewaysDesired = - 0.2;
+          sidewaysDesired = - 1.0;
           break;
         case WB_KEYBOARD_LEFT:
-          sidewaysDesired = + 0.2;
+          sidewaysDesired = + 1.0;
           break;
         case 'Q':
-          yawDesired = actualState.yaw + 0.05;
+          yawDesired = actualState.yaw + 0.15;
           break;
         case 'E':
-          yawDesired = actualState.yaw - 0.05;
+          yawDesired = actualState.yaw - 0.15;
           break;
         }
       key = wb_keyboard_get_key();
