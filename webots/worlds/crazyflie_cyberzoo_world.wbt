@@ -278,7 +278,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_floor/grass_blue.png"
+                            "textures/cyberzoo_floor/grass_blue.png"
                           ]
                         }
                         roughness 1
@@ -326,7 +326,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_floor/grass_blue.png"
+                            "textures/cyberzoo_floor/grass_blue.png"
                           ]
                         }
                         roughness 1
@@ -377,7 +377,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_floor/grass_green.png"
+                            "textures/cyberzoo_floor/grass_green.png"
                           ]
                         }
                         roughness 1
@@ -418,7 +418,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_floor/grass_black.png"
+                            "textures/cyberzoo_floor/grass_black.png"
                           ]
                         }
                         roughness 1
@@ -459,7 +459,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_floor/grass_black.png"
+                            "textures/cyberzoo_floor/grass_black.png"
                           ]
                         }
                         roughness 1
@@ -531,7 +531,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -640,7 +640,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -749,7 +749,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -858,7 +858,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -967,7 +967,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -1076,7 +1076,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -1185,7 +1185,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -1294,7 +1294,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -1403,7 +1403,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -1512,7 +1512,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -1621,7 +1621,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -1730,7 +1730,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_poles/pole.png"
+                            "textures/cyberzoo_poles/pole.png"
                           ]
                         }
                         roughness 1
@@ -1862,7 +1862,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_wires/wire.png"
+                            "textures/cyberzoo_wires/wire.png"
                           ]
                         }
                         roughness 1
@@ -1894,7 +1894,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_wires/wire.png"
+                            "textures/cyberzoo_wires/wire.png"
                           ]
                         }
                         roughness 1
@@ -1926,7 +1926,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_wires/wire.png"
+                            "textures/cyberzoo_wires/wire.png"
                           ]
                         }
                         roughness 1
@@ -1958,7 +1958,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_wires/wire.png"
+                            "textures/cyberzoo_wires/wire.png"
                           ]
                         }
                         roughness 1
@@ -1990,7 +1990,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_wires/wire.png"
+                            "textures/cyberzoo_wires/wire.png"
                           ]
                         }
                         roughness 1
@@ -2054,7 +2054,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -2163,7 +2163,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -2272,7 +2272,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -2381,7 +2381,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -2490,7 +2490,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -2599,7 +2599,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -2708,7 +2708,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -2817,7 +2817,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -2926,7 +2926,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -3035,7 +3035,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -3144,7 +3144,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_cams/optitrack.png"
+                            "textures/cyberzoo_cams/optitrack.png"
                           ]
                         }
                         roughness 1
@@ -3274,7 +3274,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_net/net.png"
+                        "textures/cyberzoo_net/net.png"
                       ]
                     }
                     roughness 1
@@ -3315,7 +3315,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_net/net.png"
+                        "textures/cyberzoo_net/net.png"
                       ]
                     }
                     roughness 1
@@ -3382,7 +3382,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_walls/wall_curtains.png"
+                            "textures/cyberzoo_walls/wall_curtains.png"
                           ]
                         }
                         roughness 1
@@ -3465,7 +3465,7 @@ DEF Cyberzoo Transform {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "cyberzoo_walls/ceiling.png"
+                            "textures/cyberzoo_walls/ceiling.png"
                           ]
                         }
                         roughness 1
@@ -3541,7 +3541,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_side_curtain/wall_curtains.png"
+                        "textures/cyberzoo_side_curtain/wall_curtains.png"
                       ]
                     }
                     roughness 1
@@ -6334,7 +6334,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_toolcart/toolcart_transparent.png"
+                        "textures/cyberzoo_toolcart/toolcart_transparent.png"
                       ]
                     }
                     roughness 1
@@ -6401,7 +6401,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/white_brick.png"
+                        "textures/cyberzoo_surroundings/white_brick.png"
                       ]
                     }
                     roughness 1
@@ -6442,7 +6442,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/curtains.png"
+                        "textures/cyberzoo_surroundings/curtains.png"
                       ]
                     }
                     roughness 1
@@ -6483,7 +6483,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/balcony_fence.png"
+                        "textures/cyberzoo_surroundings/balcony_fence.png"
                       ]
                     }
                     roughness 1
@@ -6557,7 +6557,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/shelves.png"
+                        "textures/cyberzoo_surroundings/shelves.png"
                       ]
                     }
                     roughness 1
@@ -6605,7 +6605,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/cabinets.png"
+                        "textures/cyberzoo_surroundings/cabinets.png"
                       ]
                     }
                     roughness 1
@@ -6735,7 +6735,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/table.png"
+                        "textures/cyberzoo_surroundings/table.png"
                       ]
                     }
                     roughness 1
@@ -6990,7 +6990,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/red_cart.png"
+                        "textures/cyberzoo_surroundings/red_cart.png"
                       ]
                     }
                     roughness 1
@@ -7051,7 +7051,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/curtains2.png"
+                        "textures/cyberzoo_surroundings/curtains2.png"
                       ]
                     }
                     roughness 1
@@ -7165,7 +7165,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/table.png"
+                        "textures/cyberzoo_surroundings/table.png"
                       ]
                     }
                     roughness 1
@@ -7420,7 +7420,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/white_box.png"
+                        "textures/cyberzoo_surroundings/white_box.png"
                       ]
                     }
                     roughness 1
@@ -7550,7 +7550,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/table.png"
+                        "textures/cyberzoo_surroundings/table.png"
                       ]
                     }
                     roughness 1
@@ -7805,7 +7805,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/press.png"
+                        "textures/cyberzoo_surroundings/press.png"
                       ]
                     }
                     roughness 1
@@ -7872,7 +7872,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/press_block_side.png"
+                        "textures/cyberzoo_surroundings/press_block_side.png"
                       ]
                     }
                     roughness 1
@@ -7943,7 +7943,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/press_block.png"
+                        "textures/cyberzoo_surroundings/press_block.png"
                       ]
                     }
                     roughness 1
@@ -7984,7 +7984,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/press_block.png"
+                        "textures/cyberzoo_surroundings/press_block.png"
                       ]
                     }
                     roughness 1
@@ -8051,7 +8051,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/pathway.png"
+                        "textures/cyberzoo_surroundings/pathway.png"
                       ]
                     }
                     roughness 1
@@ -8134,7 +8134,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/floor.png"
+                        "textures/cyberzoo_surroundings/floor.png"
                       ]
                     }
                     roughness 1
@@ -8182,7 +8182,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/floor.png"
+                        "textures/cyberzoo_surroundings/floor.png"
                       ]
                     }
                     roughness 1
@@ -8223,7 +8223,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/floor.png"
+                        "textures/cyberzoo_surroundings/floor.png"
                       ]
                     }
                     roughness 1
@@ -8271,7 +8271,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/workshop_door.png"
+                        "textures/cyberzoo_surroundings/workshop_door.png"
                       ]
                     }
                     roughness 1
@@ -8319,7 +8319,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_surroundings/workshop_door.png"
+                        "textures/cyberzoo_surroundings/workshop_door.png"
                       ]
                     }
                     roughness 1
@@ -8386,7 +8386,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_outer_walls/wall.png"
+                        "textures/cyberzoo_outer_walls/wall.png"
                       ]
                     }
                     roughness 1
@@ -8463,7 +8463,7 @@ DEF Cyberzoo Transform {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "cyberzoo_outer_walls/ceiling.png"
+                        "textures/cyberzoo_outer_walls/ceiling.png"
                       ]
                     }
                     roughness 1
@@ -8594,7 +8594,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m9.png"
+                        "textures/textured_panel_3m/canvas_3m9.png"
                       ]
                     }
                     roughness 1
@@ -8987,7 +8987,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -9420,7 +9420,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m8.png"
+                        "textures/textured_panel_3m/canvas_3m8.png"
                       ]
                     }
                     roughness 1
@@ -9813,7 +9813,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -10246,7 +10246,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m7.png"
+                        "textures/textured_panel_3m/canvas_3m7.png"
                       ]
                     }
                     roughness 1
@@ -10639,7 +10639,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -11072,7 +11072,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m6.png"
+                        "textures/textured_panel_3m/canvas_3m6.png"
                       ]
                     }
                     roughness 1
@@ -11465,7 +11465,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -11898,7 +11898,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m5.png"
+                        "textures/textured_panel_3m/canvas_3m5.png"
                       ]
                     }
                     roughness 1
@@ -12291,7 +12291,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -12724,7 +12724,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m4.png"
+                        "textures/textured_panel_3m/canvas_3m4.png"
                       ]
                     }
                     roughness 1
@@ -13117,7 +13117,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -13550,7 +13550,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m3.png"
+                        "textures/textured_panel_3m/canvas_3m3.png"
                       ]
                     }
                     roughness 1
@@ -13943,7 +13943,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -14376,7 +14376,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m2.png"
+                        "textures/textured_panel_3m/canvas_3m2.png"
                       ]
                     }
                     roughness 1
@@ -14769,7 +14769,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -15202,7 +15202,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textures/textured_panel_3m/canvas_3m.png"
                       ]
                     }
                     roughness 1
@@ -15595,7 +15595,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "textured_panel_3m/alu_profile.png"
+                            "textures/textured_panel_3m/alu_profile.png"
                           ]
                         }
                         roughness 1
@@ -15967,7 +15967,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "traffic_mat/mat_traffic_1.png"
+                        "textures/traffic_mat/mat_traffic_1.png"
                       ]
                     }
                     roughness 1
@@ -16094,7 +16094,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_1_5m/canvas_1_5m4.png"
+                        "textures/textured_panel_1_5m/canvas_1_5m4.png"
                       ]
                     }
                     roughness 1
@@ -16616,7 +16616,7 @@ DEF Objects Group {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "textured_panel_1_5m/alu_profile.png"
+                                "textures/textured_panel_1_5m/alu_profile.png"
                               ]
                             }
                             roughness 1
@@ -17053,7 +17053,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_1_5m/canvas_1_5m3.png"
+                        "textures/textured_panel_1_5m/canvas_1_5m3.png"
                       ]
                     }
                     roughness 1
@@ -17575,7 +17575,7 @@ DEF Objects Group {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "textured_panel_1_5m/alu_profile.png"
+                                "textures/textured_panel_1_5m/alu_profile.png"
                               ]
                             }
                             roughness 1
@@ -18012,7 +18012,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_1_5m/canvas_1_5m2.png"
+                        "textures/textured_panel_1_5m/canvas_1_5m2.png"
                       ]
                     }
                     roughness 1
@@ -18534,7 +18534,7 @@ DEF Objects Group {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "textured_panel_1_5m/alu_profile.png"
+                                "textures/textured_panel_1_5m/alu_profile.png"
                               ]
                             }
                             roughness 1
@@ -18971,7 +18971,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_1_5m/canvas_1_5m.png"
+                        "textures/textured_panel_1_5m/canvas_1_5m.png"
                       ]
                     }
                     roughness 1
@@ -19493,7 +19493,7 @@ DEF Objects Group {
                           appearance PBRAppearance {
                             baseColorMap ImageTexture {
                               url [
-                                "textured_panel_1_5m/alu_profile.png"
+                                "textures/textured_panel_1_5m/alu_profile.png"
                               ]
                             }
                             roughness 1
@@ -19923,7 +19923,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "shower_curtain/curtain_striped.png"
+                            "textures/shower_curtain/curtain_striped.png"
                           ]
                         }
                         roughness 1
@@ -19964,7 +19964,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "shower_curtain/curtain_striped.png"
+                            "textures/shower_curtain/curtain_striped.png"
                           ]
                         }
                         roughness 1
@@ -20033,12 +20033,12 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "orange_pole/orange_pole.png"
+                        "textures/orange_pole/orange_pole.png"
                       ]
                     }
                     roughness 1
                     metalness 0
-                    name "orange_pole"
+                    name "textures/orange_pole"
                   }
                   geometry IndexedFaceSet {
                     coord Coordinate {
@@ -20205,12 +20205,12 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel4.png"
+                            "textures/metal_panel/metal_panel4.png"
                           ]
                         }
                         roughness 1
                         metalness 0
-                        name "metal_panel1"
+                        name "textures/metal_panel1"
                       }
                       geometry IndexedFaceSet {
                         coord Coordinate {
@@ -20347,12 +20347,12 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel4.png"
+                            "textures/metal_panel/metal_panel4.png"
                           ]
                         }
                         roughness 1
                         metalness 0
-                        name "metal_panel1"
+                        name "textures/metal_panel1"
                       }
                       geometry IndexedFaceSet {
                         coord Coordinate {
@@ -20570,12 +20570,12 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel3.png"
+                            "textures/metal_panel/metal_panel3.png"
                           ]
                         }
                         roughness 1
                         metalness 0
-                        name "metal_panel1"
+                        name "textures/metal_panel1"
                       }
                       geometry IndexedFaceSet {
                         coord Coordinate {
@@ -20712,12 +20712,12 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel3.png"
+                            "textures/metal_panel/metal_panel3.png"
                           ]
                         }
                         roughness 1
                         metalness 0
-                        name "metal_panel1"
+                        name "textures/metal_panel1"
                       }
                       geometry IndexedFaceSet {
                         coord Coordinate {
@@ -20935,12 +20935,12 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel2.png"
+                            "textures/metal_panel/metal_panel2.png"
                           ]
                         }
                         roughness 1
                         metalness 0
-                        name "metal_panel1"
+                        name "textures/metal_panel1"
                       }
                       geometry IndexedFaceSet {
                         coord Coordinate {
@@ -21077,12 +21077,12 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel2.png"
+                            "textures/metal_panel/metal_panel2.png"
                           ]
                         }
                         roughness 1
                         metalness 0
-                        name "metal_panel1"
+                        name "textures/metal_panel1"
                       }
                       geometry IndexedFaceSet {
                         coord Coordinate {
@@ -21300,12 +21300,12 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel1.png"
+                            "textures/metal_panel/metal_panel1.png"
                           ]
                         }
                         roughness 1
                         metalness 0
-                        name "metal_panel1"
+                        name "textures/metal_panel1"
                       }
                       geometry IndexedFaceSet {
                         coord Coordinate {
@@ -21442,12 +21442,12 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel1.png"
+                            "textures/metal_panel/metal_panel1.png"
                           ]
                         }
                         roughness 1
                         metalness 0
-                        name "metal_panel1"
+                        name "textures/metal_panel1"
                       }
                       geometry IndexedFaceSet {
                         coord Coordinate {
@@ -21548,7 +21548,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "dronerace_gate/gate.png"
+                            "textures/dronerace_gate/gate.png"
                           ]
                         }
                         roughness 1
@@ -21664,7 +21664,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "dronerace_gate/gate_foot.png"
+                            "textures/dronerace_gate/gate_foot.png"
                           ]
                         }
                         roughness 1
@@ -21741,7 +21741,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "dronerace_gate/gate_pole.png"
+                            "textures/dronerace_gate/gate_pole.png"
                           ]
                         }
                         roughness 1
@@ -21874,7 +21874,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "airport_mat/mat_airport.png"
+                        "textures/airport_mat/mat_airport.png"
                       ]
                     }
                     roughness 1
