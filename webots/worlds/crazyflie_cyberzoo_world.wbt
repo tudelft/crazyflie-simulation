@@ -3,8 +3,8 @@ WorldInfo {
 }
 Viewpoint {
   fieldOfView 0.9
-  orientation -0.22078602004237885 0.6909968209172619 0.6883145551534443 0.8692182405390751
-  position -2.524291491168089 -3.1770834584643244 3.172808617918291
+  orientation 0.23117957995438854 0.13238321349918336 -0.9638623794898015 2.1329046776468656
+  position 5.445165412253925 14.486325889986974 7.446091616565534
   follow "Crazyflie"
   followType "Mounted Shot"
   followSmoothness 0.1
@@ -8594,7 +8594,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textured_panel_3m/canvas_3m9.png"
                       ]
                     }
                     roughness 1
@@ -9420,7 +9420,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textured_panel_3m/canvas_3m8.png"
                       ]
                     }
                     roughness 1
@@ -10246,7 +10246,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textured_panel_3m/canvas_3m7.png"
                       ]
                     }
                     roughness 1
@@ -11072,7 +11072,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textured_panel_3m/canvas_3m6.png"
                       ]
                     }
                     roughness 1
@@ -11898,7 +11898,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textured_panel_3m/canvas_3m5.png"
                       ]
                     }
                     roughness 1
@@ -12724,7 +12724,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textured_panel_3m/canvas_3m4.png"
                       ]
                     }
                     roughness 1
@@ -13550,7 +13550,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textured_panel_3m/canvas_3m3.png"
                       ]
                     }
                     roughness 1
@@ -14376,7 +14376,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_3m/canvas_3m.png"
+                        "textured_panel_3m/canvas_3m2.png"
                       ]
                     }
                     roughness 1
@@ -16094,7 +16094,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_1_5m/canvas_1_5m.png"
+                        "textured_panel_1_5m/canvas_1_5m4.png"
                       ]
                     }
                     roughness 1
@@ -17053,7 +17053,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_1_5m/canvas_1_5m.png"
+                        "textured_panel_1_5m/canvas_1_5m3.png"
                       ]
                     }
                     roughness 1
@@ -18012,7 +18012,7 @@ DEF Objects Group {
                   appearance PBRAppearance {
                     baseColorMap ImageTexture {
                       url [
-                        "textured_panel_1_5m/canvas_1_5m.png"
+                        "textured_panel_1_5m/canvas_1_5m2.png"
                       ]
                     }
                     roughness 1
@@ -20205,7 +20205,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel1.png"
+                            "metal_panel/metal_panel4.png"
                           ]
                         }
                         roughness 1
@@ -20347,7 +20347,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel1.png"
+                            "metal_panel/metal_panel4.png"
                           ]
                         }
                         roughness 1
@@ -20570,7 +20570,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel1.png"
+                            "metal_panel/metal_panel3.png"
                           ]
                         }
                         roughness 1
@@ -20712,7 +20712,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel1.png"
+                            "metal_panel/metal_panel3.png"
                           ]
                         }
                         roughness 1
@@ -20935,7 +20935,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel1.png"
+                            "metal_panel/metal_panel2.png"
                           ]
                         }
                         roughness 1
@@ -21077,7 +21077,7 @@ DEF Objects Group {
                       appearance PBRAppearance {
                         baseColorMap ImageTexture {
                           url [
-                            "metal_panel/metal_panel1.png"
+                            "metal_panel/metal_panel2.png"
                           ]
                         }
                         roughness 1
