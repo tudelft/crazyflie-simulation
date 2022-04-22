@@ -24,6 +24,9 @@ from controller import Camera
 from controller import DistanceSensor
 
 import cv2
+import numpy as np
+import random
+random.seed()
 
 from math import cos, sin
 
@@ -93,6 +96,10 @@ gainsPID.ki_z = 50
 gainsPID.kd_z = 5
 init_pid_attitude_fixed_height_controller();
 
+## Avoidance state
+avoid_yawDesired = 0
+avoid_yawTime = 0
+
 ## Initialize struct for motor power
 motorPower = MotorPower_t()
 
@@ -127,12 +134,52 @@ while robot.step(timestep) != -1:
     desiredState.vx = 0
     desiredState.vy = 0
     desiredState.yaw_rate = 0
-    desiredState.altitude = 1.0
+    desiredState.altitude = 2.0
 
     forwardDesired = 0
     sidewaysDesired = 0
     yawDesired = 0
 
+    ## Get camera image
+    w, h = camera.getWidth(), camera.getHeight()
+    cameraData = camera.getImage()  # Note: string
+    image = np.fromstring(cameraData, np.uint8).reshape(h, w, 4)
+
+    # Show image
+    # cv2.imshow('Drone camera', image)
+    # cv2.waitKey(1)
+
+    ## Detect empty floor (green) in front of the drone
+    image_hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+    xmin, xmax = int(0.20 * w), int(0.80 * w)
+    ymin, ymax = int(0.80 * h), int(1.00 * h)
+    max_pix = (xmax - xmin) * (ymax - ymin)
+    hmin, hmax = 30, 46
+    roi_hue = image[ymin:ymax, xmin:xmax, 0]
+    roi_sat = image[ymin:ymax, xmin:xmax, 1]
+    pix_count = np.count_nonzero((roi_hue >= hmin) & (roi_hue <= hmax) & (roi_sat > 64))
+    green_pct = pix_count / max_pix
+
+    ## Avoidance state machine
+    if avoid_yawTime > 0:
+        # Turning
+        avoid_yawTime -= dt
+        yawDesired += avoid_yawDesired
+    else:
+        # Not turning
+        if green_pct > 0.20:
+            # No obstacle: fly forwards
+            forwardDesired += 0.2
+            turn_rate = 0
+        else:
+            # Obstacle in front: start turn
+            sign = 1 if random.random() > 0.5 else -1
+            avoid_yawDesired = sign * 0.5
+            avoid_yawTime = random.random() * 5.0
+
+
+    
+    # Manual override
     key = Keyboard().getKey()
     while key>0:
         if key == Keyboard.UP:
@@ -149,10 +196,6 @@ while robot.step(timestep) != -1:
             yawDesired = - 0.5
 
         key = Keyboard().getKey()
-
-    ## Example how to get sensor data
-    ## range_front_value = range_front.getValue();
-    ## cameraData = camera.getImage()
 
 
     desiredState.yaw_rate = yawDesired;
