@@ -23,6 +23,8 @@ from controller import Keyboard
 from controller import Camera
 from controller import DistanceSensor
 
+import cv2
+
 from math import cos, sin
 
 import sys
