@@ -16,7 +16,8 @@ purge: clean
 .PHONY: purge
 
 run: controllers/pid_controller.py .venv
-	source .venv/bin/activate && webots
+	# source .venv/bin/activate && webots
+	source .venv/bin/activate && webots webots/worlds/crazyflie_cyberzoo_world.wbt
 .PHONY: run
 
 
