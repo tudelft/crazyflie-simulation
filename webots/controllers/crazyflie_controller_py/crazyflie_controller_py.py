@@ -70,11 +70,6 @@ range_back = robot.getDevice("range_back")
 range_back.enable(timestep)
 range_right = robot.getDevice("range_right")
 range_right.enable(timestep)
-
-## Wait for two seconds
-#while robot.step(timestep) != -1:
-#    if robot.getTime()>2.0:
-#        break
     
 ## Initialize variables
 actualState = ActualState_t()
@@ -89,12 +84,16 @@ gainsPID.kp_att_y = 1
 gainsPID.kd_att_y = 0.5
 gainsPID.kp_att_rp =0.5
 gainsPID.kd_att_rp = 0.1
-gainsPID.kp_vel_xy = 2;
-gainsPID.kd_vel_xy = 0.5;
+gainsPID.kp_vel_xy = 2
+gainsPID.kd_vel_xy = 0.5
 gainsPID.kp_z = 10
 gainsPID.ki_z = 50
 gainsPID.kd_z = 5
-init_pid_attitude_fixed_height_controller();
+init_pid_attitude_fixed_height_controller()
+
+## Speeds
+forward_speed = 0.2
+yaw_rate = 0.5
 
 ## Avoidance state
 avoid_yawDesired = 0
@@ -127,8 +126,7 @@ while robot.step(timestep) != -1:
     actualState.vx = vxGlobal * cosyaw + vyGlobal * sinyaw
     actualState.vy = - vxGlobal * sinyaw + vyGlobal * cosyaw
 
-
-    ## Initialize values
+    ## Initialize setpoints
     desiredState.roll = 0
     desiredState.pitch = 0
     desiredState.vx = 0
@@ -142,7 +140,7 @@ while robot.step(timestep) != -1:
 
     ## Get camera image
     w, h = camera.getWidth(), camera.getHeight()
-    cameraData = camera.getImage()  # Note: string
+    cameraData = camera.getImage()  # Note: uint8 string
     image = np.fromstring(cameraData, np.uint8).reshape(h, w, 4)
 
     # Show image
@@ -169,51 +167,38 @@ while robot.step(timestep) != -1:
         # Not turning
         if green_pct > 0.20:
             # No obstacle: fly forwards
-            forwardDesired += 0.2
+            forwardDesired += forward_speed
             turn_rate = 0
         else:
             # Obstacle in front: start turn
             sign = 1 if random.random() > 0.5 else -1
-            avoid_yawDesired = sign * 0.5
+            avoid_yawDesired = sign * yaw_rate
             avoid_yawTime = random.random() * 5.0
 
-
-    
     # Manual override
     key = Keyboard().getKey()
     while key>0:
         if key == Keyboard.UP:
-            forwardDesired += 0.2
+            forwardDesired = forward_speed
         elif key == Keyboard.DOWN:
-            forwardDesired -= 0.2
+            forwardDesired = -forward_speed
         elif key == Keyboard.RIGHT:
-            sidewaysDesired -= 0.2
+            sidewaysDesired  = -forward_speed
         elif key == Keyboard.LEFT:
-            sidewaysDesired += 0.2
+            sidewaysDesired = forward_speed
         elif key == ord('Q'):
-            yawDesired =  + 0.5
+            yawDesired =  + yaw_rate
         elif key == ord('E'):
-            yawDesired = - 0.5
+            yawDesired = - yaw_rate
 
         key = Keyboard().getKey()
-
 
     desiredState.yaw_rate = yawDesired;
 
     ## PID velocity controller with fixed height
     desiredState.vy = sidewaysDesired;
     desiredState.vx = forwardDesired;
-    pid_velocity_fixed_height_controller(actualState, desiredState,
-    gainsPID, dt, motorPower);
-    
-
-    ## PID attitude controller with fixed height
-    '''
-    desiredState.roll = sidewaysDesired;
-    desiredState.pitch = forwardDesired;
-     pid_attitude_fixed_height_controller(actualState, desiredState,
-    gainsPID, dt, motorPower);
-    '''
+    pid_velocity_fixed_height_controller(actualState, desiredState, gainsPID, dt, motorPower);
 
     m1_motor.setVelocity(-motorPower.m1)
     m2_motor.setVelocity(motorPower.m2)
@@ -223,5 +208,3 @@ while robot.step(timestep) != -1:
     past_time = robot.getTime()
     pastXGlobal = xGlobal
     pastYGlobal = yGlobal
-
-    pass
