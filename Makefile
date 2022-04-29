@@ -4,6 +4,11 @@ SHELL := /bin/bash
 all: .venv controllers/pid_controller.py
 .PHONY: all
 
+run: controllers/pid_controller.py .venv
+	# source .venv/bin/activate && webots
+	source .venv/bin/activate && webots webots/worlds/crazyflie_cyberzoo_world.wbt
+.PHONY: run
+
 clean:
 	rm -r controllers/build || true
 	rm controllers/_pid_controller* || true
@@ -15,11 +20,11 @@ purge: clean
 	rm -r .venv
 .PHONY: purge
 
-run: controllers/pid_controller.py .venv
-	# source .venv/bin/activate && webots
-	source .venv/bin/activate && webots webots/worlds/crazyflie_cyberzoo_world.wbt
-.PHONY: run
+freeze:
+	source .venv/bin/activate && pip freeze -l | grep -v "pkg_resources" > requirements.txt
+.PHONY: freeze
 
+###########################################################
 
 .venv: requirements.txt
 	virtualenv -p python3 .venv
