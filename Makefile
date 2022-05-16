@@ -1,7 +1,8 @@
-SHELL := /bin/bash
-
 CF_FIRMWARE_TAG ?= 2022.05
 
+###########################################################
+
+SHELL := /bin/bash
 
 all: .venv controllers/pid_controller.py crazyflie-firmware/cffirmware.py
 .PHONY: all
