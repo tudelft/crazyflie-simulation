@@ -1,0 +1,3 @@
+crazyflie-firmware:
+- dont forget submodules!
+- `make cf2_defconfig` required before `make bindings_python`

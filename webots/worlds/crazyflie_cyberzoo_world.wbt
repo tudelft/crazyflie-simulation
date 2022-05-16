@@ -251,7 +251,7 @@ Robot {
     density -1
     mass 0.05
   }
-  controller "crazyflie_controller_py"
+  controller "crazyflie_controller_py_firmware_pid"
 }
 DEF Cyberzoo Transform {
   translation -5 -5 0
