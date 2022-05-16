@@ -1,11 +1,12 @@
 SHELL := /bin/bash
 
+CF_FIRMWARE_TAG ?= 2022.05
 
-all: .venv controllers/pid_controller.py
+
+all: .venv controllers/pid_controller.py crazyflie-firmware/cffirmware.py
 .PHONY: all
 
-run: controllers/pid_controller.py .venv
-	# source .venv/bin/activate && webots
+run: all
 	source .venv/bin/activate && webots webots/worlds/crazyflie_cyberzoo_world.wbt
 .PHONY: run
 
@@ -17,7 +18,8 @@ clean:
 .PHONY: clean
 
 purge: clean
-	rm -r .venv
+	rm -r .venv || true
+	rm -rf crazyflie-firmware || true
 .PHONY: purge
 
 freeze:
@@ -33,3 +35,12 @@ freeze:
 
 controllers/pid_controller.py: controllers/pid_controller.i controllers/pid_controller.c controllers/pid_controller.h controllers/setup.py
 	cd controllers && swig -python pid_controller.i && python3 setup.py build_ext --inplace
+
+crazyflie-firmware:
+	git submodule update --init --recursive crazyflie-firmware
+
+crazyflie-firmware/cffirmware.py: crazyflie-firmware
+	cd crazyflie-firmware && git checkout $(CF_FIRMWARE_TAG)
+	cd crazyflie-firmware && git submodule update --init
+	$(MAKE) -C crazyflie-firmware cf2_defconfig bindings_python
+	touch $@
