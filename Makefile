@@ -17,7 +17,7 @@ clean:
 .PHONY: clean
 
 purge: clean
-	rm -r .venv
+	rm -r .venv || true
 .PHONY: purge
 
 freeze:
